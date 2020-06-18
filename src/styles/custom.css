@@ -1,0 +1,525 @@
+.list-item-text span,
+table *,
+a span,
+h6,
+button,
+input,
+label,
+label span {
+    font-family: 'Quicksand', sans-serif !important;
+    color: #333333;
+}
+
+label,
+label span {
+    font-size: 14px !important;
+    font-weight: 500 !important;
+}
+.div-search-header{
+    display: flex;
+    width: 35%;
+    margin-left: 20px;
+    height: 40px;
+    background-color: white;
+    flex-direction: row;
+    border-radius: 50px;
+    border-color: rgba(51, 70, 144, 0.3);
+    border-width: 1.2px;
+}
+.search-header{
+    font-size: 14px;
+    flex:1;
+    padding-left: 15px;
+    color: #334690;
+    padding-right: 15px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+}
+.div-icon-header{
+    width: 40px;
+    height: 100%;
+    border-radius: 40px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    background-color: #334690;
+}
+.root-item-text {
+    font-family: Quicksand-bold;
+    font-size: 16px;
+    color: #334690 !important;
+}
+.root-item-text-active {
+    color: white !important;
+    font-size: 16px;
+    font-family: Quicksand-bold;
+}
+
+.root-item-text-menu {
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.root-item-icon {
+    color: #334690 !important;
+    font-size: 20px;
+}
+.root-item-icon-active {
+    color: white !important;
+    font-size: 24px;
+}
+
+.root-item-icon-arrow .text-16 {
+    font-size: 20px;
+}
+
+table thead th {
+    background-color: #2165FF;
+}
+
+table thead th span,
+table thead th svg {
+    color: white !important;
+    opacity: 1 !important;
+}
+
+div[class*=''] {
+    display: flex;
+}
+
+div[class*='FusePageCarded'] a {
+    color: white !important;
+    background-color: #1E63FF !important;
+    background-color: linear-gradient(to right, #1E63FF, #1E63FF 100%, #1E63FF 40%);
+}
+
+div[class*='FusePageCarded'] a span {
+    color: white;
+}
+
+div[class*='FusePageCarded'] div[class*='MuiPaper'] {
+    padding-top: 5px!important;
+    padding-bottom: 5px!important;
+}
+
+table tbody tr:nth-child(2n) {
+    background-color: #F8F8F8;
+}
+
+.imgPreview {
+    text-align: center;
+    margin: 5px 15px;
+    height: 250px;
+    width: 250px;
+    border-left: 1px solid gray;
+    border-right: 1px solid gray;
+    border-top: 5px solid gray;
+    border-bottom: 5px solid gray;
+}
+
+.imgPreview img {
+    width: 100%;
+    height: 100%;
+}
+
+.previewComponent .fileInput {
+    border: 0;
+}
+
+.previewText {
+    width: 100%;
+    margin-top: 20px;
+}
+
+.fileInput {
+    border: 1px solid #ccc;
+    display: inline-block;
+    padding: 6px 12px;
+    cursor: pointer;
+}
+
+.textLabel {
+    color: rgba(0, 0, 0, 0.54);
+    padding: 0;
+    font-size: 1.6rem;
+    font-family: 'Quicksand', sans-serif !important;
+    line-height: 1;
+}
+
+.btn {
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 30px;
+    padding: 16px;
+}
+
+.btn.btn-secondary:not([disabled]) {
+    background: #CF3034;
+}
+
+.mb-20px {
+    margin-bottom: 20px;
+}
+
+.max-w-500 {
+    max-width: 50rem;
+}
+
+.text-xs {
+    font-size: 16px;
+}
+
+.underline {
+    text-decoration: underline !important;
+}
+
+table.min-w-xl th {
+    padding: 4px 6px;
+}
+
+.header-right-top-desc span,
+.header-right-top-desc h6 {
+    color: #374A92;
+    font-size: 24px;
+    font-weight: bold;
+    line-height: 30px;
+}
+
+.custom-header-import {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+.custom-header-import>div:first-child button {
+    padding: 0px;
+    background-color: transparent;
+    box-shadow: none;
+    border: none;
+    outline: none !important;
+}
+
+@media(max-height: 840px) {
+    .btn {
+        padding: 12px;
+        border-radius: 26px
+    }
+}
+
+.logo_ss {
+    height: 40px;
+    object-fit: contain;
+}
+
+.div_container {
+    background-color: #F4F5FA;
+    width: 100%;
+    height: 100%;
+    padding: 30px;
+    overflow-y: scroll;
+}
+
+.MuiButton-root-176 {
+    min-width: unset;
+}
+.header-blue{
+    background-color: #033CAD;
+    width: 100%;
+    padding: 25px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 4px 0.5px rgba(0, 0, 0, 0.2), 0px 5px 6px 0px rgba(0, 0, 0, 0.10), 0px 0px 0px 0px rgba(0, 0, 0, 1);
+    display: grid;
+    flex-direction: column;
+}
+.backgroundColor_blue {
+    background-color: #334690;
+}
+.backgroundColor_blue2{
+   background-color: #033CAD;
+}
+.color_white {
+    color: white;
+}
+
+.fontweight_medium{
+    font-family: Quicksand;
+}
+
+.color_blue {
+    color: #334690;
+}
+.color_red {
+    color: #CF3034;
+}
+.color_text {
+ color: #333333;
+}
+.color_grey {
+    color: #707070;
+}
+.color_green {
+    color: #34BFA3;
+}
+
+.color_title {
+    color: #374A92;
+}
+
+.color_yellow {
+    color: #EEBF39;
+}
+
+.color_orange {
+    color: #EE7F39;
+}
+
+.color_turquoise {
+    color: #5DDAF9; 
+}
+
+.backgroundColor_yellow {
+    background-color: #EEBF39;
+}
+
+.container_question {
+    border-radius: 4px;
+    border-width: 1px;
+    border-color: #B4CAFF;
+    min-height: 100px;
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.container_note {
+    border-radius: 4px;
+    border-width: 1px;
+    border-color: #B4CAFF;
+    min-height: 60px;
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.btn_add {
+    width: 40px;
+    height: 40px;
+    min-width: unset;
+    border-radius: 30px;
+    margin-right: 15px;
+    align-items: center;
+    background: linear-gradient(to right, #334690, #3E57B9);
+    /* background: linear-gradient(#2669FF 100%, #5D8EFF 50%); */
+    box-shadow: 0px 0px 1px -1px rgba(0, 0, 0, 0.2), 0px 5px 10px 0px rgba(0, 0, 0, 0.10), 0px 0px 0px 0px rgba(0, 0, 0, 0.12);
+}
+
+.btn_import_export {
+    width: 40px;
+    height: 40px;
+    min-width: unset;
+    margin-right: 15px;
+    border-radius: 30px;
+    align-items: center;
+    background-color: white;
+    box-shadow: 0px 0px 1px -1px rgba(0, 0, 0, 0.2), 0px 5px 10px 0px rgba(0, 0, 0, 0.10), 0px 0px 0px 0px rgba(0, 0, 0, 0.12);
+}
+
+.btn_menu {
+    width: 40px;
+    height: 40px;
+    min-width: unset;
+    border-radius: 30px;
+    align-items: center;
+    background-color: transparent;
+    /* box-shadow: 0px 0px 1px -1px rgba(0,0,0,0.2), 0px 5px 10px 0px rgba(0,0,0,0.10), 0px 0px 0px 0px rgba(0,0,0,0.12); */
+}
+.btn_delete {
+    width: 30px;
+    height: 30px;
+    min-width: unset;
+    border-radius: 30px;
+    border-color: red;
+    border-width: 2px;
+    align-items: center;
+    background-color: white;
+    /* box-shadow: 0px 0px 1px -1px rgba(0,0,0,0.2), 0px 5px 10px 0px rgba(0,0,0,0.10), 0px 0px 0px 0px rgba(0,0,0,0.12); */
+}
+.btn_contact_active {
+    background-color: #033CAD;
+    color: white;   
+    width: 80px;
+    /* height: 40px; */
+}
+.btn_contact_disable {
+    background-color: #ffffff;
+    color: black;   
+    width: 80px;
+    border: #D1D1D1 1px solid;
+    /* height: 40px; */
+}
+.btn_cancel_contact {
+    background-color: #CF3034;
+    color: white;   
+    width: 80px;
+    /* height: 40px; */
+}
+.btn_share_contact {
+    background-color: #334690;
+    color: white;   
+    width: 80px;
+    /* height: 40px; */
+}
+.btn_add_contact {
+    background-color: #334690;
+    color: white;   
+    width: auto;
+    margin-bottom: 10px;
+    /* height: 40px; */
+}
+.div_share_contact {
+    background-color: #F4F5FA;
+    height: 350px;
+    overflow-y: scroll;
+}
+.icon_add {
+    width: 20px;
+    object-fit: contain;
+}
+
+.icon_import_export {
+    width: 30px;
+    object-fit: contain;
+}
+
+.btn_import {
+    width: 55px;
+    object-fit: contain;
+}
+
+.gradient_blue {
+    background-color: #334690; 
+    /* background-image: linear-gradient(to right, #2669FF, #5D8EFF) */
+    background-image: linear-gradient(to right, #334690, #3E57B9)
+}
+.gradient_green {
+    background-color: #34BFA3; 
+    background-image: linear-gradient(to right, #34BFA3, #3bd3b2)
+}
+
+.gradient_red {
+    background-color: #F24C55; 
+    background-image: linear-gradient(to right, #F24C55, #E6314C);
+}
+
+.gradient_turquoise {
+    background-color: #5DDAF9; 
+    background-image: linear-gradient( to right, #5DDAF9, #41CEF1 );
+}
+.gradient_orange {
+    background-color: #EE7F39; 
+    background-image: linear-gradient(to right, #EE7F39 , #FF9F07 );
+}
+.gradient_gray {
+    background-color: #b1b5b2; 
+    background-image: linear-gradient(to right, #b1b5b2 , #b1b5b2 );
+}
+.button_base {
+    padding: 13x;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.div_shadow {
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 1px -1px rgba(0, 0, 0, 0.2), 0px 5px 10px 0px rgba(0, 0, 0, 0.10), 0px 0px 0px 0px rgba(0, 0, 0, 0.12);
+}
+
+.box_shadow {
+    box-shadow: 0px 0px 1px -1px rgba(0, 0, 0, 0.2), 0px 5px 10px 0px rgba(0, 0, 0, 0.10), 0px 0px 0px 0px rgba(0, 0, 0, 0.12);
+}
+
+
+.title_question {
+    padding: 8px;
+    flex-direction: row;
+    padding-left: 17px;
+    justify-content: space-between;
+    padding-right: 17px;
+    background-color: rgba(30, 99, 255, 0.1);
+    border-radius: 5px;
+    width: fit-content;
+}
+
+.ReactTable {
+    border: unset;
+}
+
+.pagination-bottom {
+    /* visibility: hidden; */
+    /* height: 0; */
+}
+
+.rt-thead {
+    background-color: #334690;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.ReactTable .rt-thead .rt-resizable-header-content {
+    color: white;
+    font-weight: bold;
+}
+
+.ReactTable .rt-thead.-header {
+    box-shadow: unset;
+}
+
+.rt-noData {
+    visibility: hidden;
+    height: 0;
+}
+
+.ReactTable .rt-td {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    align-items: center;
+    justify-content: center;
+    max-lines: 3;
+}
+
+.MuiInput-underline:before {
+    border-bottom: none;
+}
+
+.custom_textField .MuiOutlinedInput-input {
+    padding: 7px;
+}
+
+.custom_textField .MuiFormHelperText-root.Mui-error {
+    text-align: center;
+}
+.unset_content_button{
+    min-width: unset;
+    padding: 5px;
+}
+.input_base{
+    background-color: white;
+    padding: 5px 10px 5px 10px;
+    border-radius: 5px;
+    box-shadow:0px 0px 3px 0.5px rgba(0, 0, 0, 0.2), 0px 3px 6px 0px rgba(0, 0, 0, 0.10), 0px 0px 0px 0px rgba(0, 0, 0, 1);
+}
+.list-noti{
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+.shadow-common{
+    box-shadow:0px 0px 3px 0.5px rgba(0, 0, 0, 0.2), 0px 3px 6px 0px rgba(0, 0, 0, 0.10), 0px 0px 0px 0px rgba(0, 0, 0, 1);
+}
+.react-rater-star.is-active{
+    color: #EEBF39 !important
+}
+.react-rater-star{
+    font-size: 16;
+}

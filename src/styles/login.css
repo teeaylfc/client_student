@@ -1,0 +1,209 @@
+.login-bg-image {
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    overflow: hidden;
+}
+.login-box .avatar-custom {
+    width: 25vh;
+    height: 25vh;
+    margin-bottom: 4.1vh;
+}
+.login-box {
+    padding: 7.8vh 75px 8.8vh !important;
+    position: relative;
+}
+.login-box>h6 {
+    font-weight: bold;
+    font-size: 28px;
+    margin-bottom: 3.1vh;
+}
+.login-box .desc {
+    color: #333333;
+}
+.form-login fieldset{
+    border-radius: 6px;
+}
+.form-login .MuiOutlinedInput-root-105:not(.MuiOutlinedInput-error-110) fieldset{
+    border-color: #E0E0E0 !important;
+}
+.form-login input {
+    height: 8px !important;
+}
+.custom_icon_book {
+    bottom: -78px;
+    left: -120px;
+    width: 40%;
+}
+.login-page {
+    overflow: inherit;
+}
+.form-login{
+    padding: 40px 25px 20px 25px;
+}
+.login-checkbox {
+    margin: 0px 0px 20px;
+}
+.icon_book{
+    bottom: 0px;
+    left: -100px;
+    width: 150px;
+    object-fit: contain;
+}
+
+.home-login {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    position: relative;
+}
+.home-login h6 {
+    font-size: 28px;
+    font-weight: bold;
+    color: #FFFFFF;
+    margin-bottom: 30px;
+}
+.home-login a {
+    margin: 20px 0px;
+}
+.home-login .link {
+    display: block;
+    width: 100%;
+    padding: 19px;
+    border-radius: 8px;
+    text-decoration: none !important;
+    text-transform: uppercase;
+    font-size: 28px;
+    font-weight: bold;
+}
+.home-login .link.link-admin {
+    background: linear-gradient(#F24C55 40%, #F24C55 100%);
+}
+.home-login .link.link-student {
+    background: linear-gradient(#6191FF 40%, #6191FF 100%);
+}
+.home-login .link.link-teacher {
+    background: linear-gradient(#5DDAF9 40%, #5DDAF9 100%);
+}
+.home-login .link img {
+    margin-right: 18px;
+}
+.home-login .link .text {
+    color: #FFFFFF;
+}
+.home-login .custom_icon_book {
+    bottom: -180px;
+    left: -190px;
+}
+
+@media(max-width: 1450px) {
+    .home-login .custom_icon_book {
+        bottom: -140px;
+        left: -120px;
+        width: 40%;
+    }
+}
+
+@media(max-height: 920px) {
+    .login-box {
+        padding: 7vh 75px 8vh !important;
+    }
+}
+@media(max-height: 880px), (max-width: 1200px) {
+    .login-box {
+        padding: 6vh 75px 7vh !important;
+    }
+    .login-box .avatar-custom {
+        width: 12vh;
+        height: 12vh;
+        margin-bottom: 3vh;
+    }
+    .login-box>h6 {
+        margin-bottom: 2.5vh;
+    }
+}
+
+@media(max-height: 840px) {
+    .login-box {
+        padding: 6vh 75px 6vh !important;
+    }
+    .login-box>h6 {
+        margin-bottom: 2.5vh;
+    }
+    .form-login .mb-12 {
+        margin-bottom: 12px;
+    }
+    .form-login .mb-20px {
+        margin-bottom: 16px;
+    }
+    .login-checkbox {
+        margin-bottom: 16px;
+    }
+}
+@media(max-height: 800px), (max-width: 1450px) { 
+    .custom_icon_book {
+        bottom: -55px;
+        left: -90px;
+        width: 35%;
+    }
+    .login-page {
+        max-width: 400px;
+    }
+}
+@media(max-height: 800px), (max-width: 1400px) { 
+    .login-box {
+        padding-left: 40px !important;
+        padding-right: 40px !important;
+    }
+}
+
+@media(max-width: 1450px) {
+    .login-page {
+        max-width: 480px;
+    }
+}
+
+@media(min-width: 1450px) {
+    .login-page {
+        max-width: 500px;
+    }
+}
+
+@media(max-height: 720px) {
+    .form-login .mb-12 {
+        margin-bottom: 8px;
+    }
+    .form-login .mb-20px {
+        margin-bottom: 12px;
+    }
+    .login-checkbox {
+        margin-bottom: 12px;
+    }
+    .login-box .MuiIconButton-root-167 {
+        padding: 8px;
+    }
+    .login-box .pt-32 {
+        padding-top: 20px;
+    }
+}
+
+@media(max-height: 660px) {
+    .form-login .mb-12 {
+        margin-bottom: 6px;
+    }
+    .form-login .mb-20px {
+        margin-bottom: 10px;
+    }
+    .login-checkbox {
+        margin-bottom: 10px;
+    }
+    .login-box .MuiIconButton-root-167 {
+        padding: 6px;
+    }
+}
+@media(max-height: 640px) { 
+    .login-box {
+        padding: 5vh 40px 5vh !important;
+    }
+}

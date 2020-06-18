@@ -1,0 +1,199 @@
+.custom-Appbar {
+    height: 90px;
+    box-shadow: 0px 5px 5px rgba(0,0,0,0.1);
+}
+#fuse-navbar>div, #fuse-navbar>div>div {
+    background-color: #fff !important;
+}
+#fuse-navbar .ps--active-x > .ps__rail-x {
+    display: none;
+}
+.list-item-text {
+    padding: 0px 10px;
+    font-size: 16px;
+    font-family: Quicksand-bold;
+}
+.list-item-text-active {
+    padding: 0px 10px;
+    color: white;
+    
+}
+.list-item-text-primary{
+    color: #334690 !important;
+    font-weight: bold;
+}
+.list-item.active .list-item-text-primary{
+    color: white !important;
+}
+.list-item-open {
+    color: #fff!important;
+    transition: border-radius .15s cubic-bezier(0.4,0.0,0.2,1);
+    pointer-events: none;
+    background-color: #334690;
+}
+.list-item-open .root-item-icon, .list-item-open .root-item-text {
+    color: #fff !important;
+}
+.collapse-children>div>div {
+    list-style-type: circle;
+    padding-left: 5.6rem;
+}
+.collapse-children .list-item {
+    display: list-item;
+    text-align: -webkit-match-parent;
+    color: #707070 !important;
+    padding-left: 0px;
+}
+.collapse-children .list-item:hover {
+    background-color: transparent !important;
+}
+.collapse-children .list-item .list-item-text-primary {
+    color: #707070 !important;
+}
+.collapse-children .list-item.active {
+    background-color: transparent !important;
+}
+.collapse-children .list-item.active .list-item-text-primary {
+    color: #5F90FF !important;
+}
+.header-content {
+    margin-bottom: 20px;
+}
+.header-content .title {
+    font-size: 24px;
+    color: #374A92;
+    font-weight: bold;
+    line-height: 30px;
+    margin: 0px;
+}
+.header-content-right {
+    margin-left: auto;
+    color: #374A92;
+}
+.header-content-right a {
+    font-size: 16px;
+    color: #374A92 !important;
+    line-height: 30px;
+    font-weight: 500;
+}
+.header-content-right span {
+    margin: auto 10px;
+    color: #374A92;
+}
+.header-right-top-custom {
+    height: auto;
+    max-height: none;
+    min-height: auto;
+    padding-bottom: 8px;
+}
+.form-fuse-search .item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 25px;
+}
+.form-fuse-search .item-left {
+    min-width: 72px;
+}
+.form-fuse-search-desc {
+    color: #707070;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 50px;
+}
+.form-fuse-search-select {
+    background-color: #fff;
+    color: #707070;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 23px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    padding: 7px 5px;
+    width: 120px;
+    margin-left: 25px;
+}
+.form-fuse-search-select>div>svg {
+    color: #999999;
+}
+.form-fuse-search-select>div>div {
+    padding-right: 20px;
+}
+@media(max-width: 1600px) {
+    .form-fuse-search-select {
+        width: 100px;
+        margin-left: 15px;
+    }
+    .form-fuse-search-select-textField {
+        width: 100%;
+    }
+}
+.form-fuse-search-select-textField {
+    width: 100%;
+    margin-left: 0px;
+}
+.form-fuse-search-select-textField input {
+    color: #707070;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 23px;
+}
+.form-fuse-search-select-textField>div {
+    margin-top: 0px;
+}
+.form-fuse-search .item-search {
+    justify-content: flex-end;
+}
+.form-fuse-search-all {
+    background-color: #fff;
+    color: #707070;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 23px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    padding: 7px 5px;
+    padding-left: 60px;
+    min-width: 330px;
+}
+.group-search {
+    position: relative;
+}
+.group-search .material-icons {
+    color: #707070;
+    position: absolute;
+    z-index: 2;
+    width: 60px;
+    text-align: center;
+    margin-top: 13px;
+}
+.item-search-icon {
+    margin-left: 16px;
+}
+.item-search-icon .btn-plus {
+    display: inline-block;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    overflow: hidden;
+    cursor: pointer;
+    padding: 0px;
+    min-width: auto;
+}
+.text-search {
+    color: #2165FF;
+    font-size: 18px;
+    line-height: 23px;
+    font-weight: bold;
+    padding-bottom: 25px;
+}
+.header-top-box {
+    margin-bottom: 21px;
+}
+.header-file {
+    padding: 0px;
+    background-color: transparent;
+    box-shadow: none;
+}
+.header-file:hover {
+    background-color: transparent;
+}

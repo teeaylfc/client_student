@@ -1,0 +1,42 @@
+.question_Image{
+    flex:1;
+    object-fit: contain;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+.question_divButtonAnswer{
+    margin-bottom: 25px;
+    display:flex;
+    justify-content: center;
+}
+.question_divButtonAnswer .MuiButton-contained{
+    box-shadow: unset;
+}
+.question_buttonAnswer{
+    background-color: white;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.question_borderButton .MuiButton-root{
+    text-transform: unset;
+}
+.question_borderButton{
+    width: 80%;
+    border-width: 1px;
+    border-radius: 4px;
+    display: flex;
+    overflow: hidden;
+}
+.question_gridAnswer{
+    width: 85%;
+    display: grid;
+    grid-template-columns: auto auto;
+}
+.question_textAnswer{
+    color: #333333;
+    font-weight: 500;
+    font-size: 13px;
+}

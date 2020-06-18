@@ -1,0 +1,27 @@
+.plan_registration_banner {
+    height: 160px;
+    background-color: #033CAD;
+    color: white;
+    display: flex;
+    align-items: center;
+    font-size: 24;
+}
+.plan_grid{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-row-gap: 30px;
+    grid-column-gap: 3%;
+}
+.item_plan_card{
+    background-color: #033CAD;
+    height: 300px;
+    border-radius: 8;
+}
+.image_plan_card{
+    height: 230px;
+}
+.btn_view_plan{
+    height: 50px;
+    background-color: #EEBF39;
+    align-items: center;
+}

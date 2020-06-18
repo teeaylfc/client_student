@@ -1,0 +1,72 @@
+.sign-up-left{
+    display: flex;
+    flex: 1;
+    align-items: center;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin-bottom: 120px;
+}
+.sign-up-right{
+    display: flex;
+    align-items: flex-start;
+    flex: 1;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 120px;
+}
+.header-sign-up{
+    width: 100%;
+    display: flex;
+    padding-top: 15px;
+    padding-bottom: 40px;
+    align-items: center;
+    justify-content: center;
+}
+.div-icon-tutorial{
+    width: 50px;
+    height: 50px;
+    border-radius: 30px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.image-sign-up{
+    width: 55%;
+    object-fit: contain;
+    margin-bottom: 20px;
+}
+.div-descrip{
+    width: 80%;
+    justify-content: center;
+    align-items: center;
+}
+.image-background-signUp{
+    background-size: 100vw 100vh;
+    background-position: center;
+    object-fit: contain;
+    overflow-y: scroll;
+    /* background-repeat: no-repeat; */
+    display: flex;
+    flex-direction: column;
+    flex: 1 1 auto;
+    flex-shrink: 0;
+}
+
+.form-sign-up{
+    width: 80%;
+    margin-left: 10%;
+    padding: 40px 25px 40px 25px;
+}
+.regulations{
+    background-color: white;
+    padding: 10px 10px 10px 10px;
+    max-height: 120px;
+    border-radius: 7px;
+    overflow-y: scroll;
+    box-shadow: 0px 0px 4px 0.5px rgba(0, 0, 0, 0.2), 0px 5px 6px 0px rgba(0, 0, 0, 0.10), 0px 0px 0px 0px rgba(0, 0, 0, 1);
+}
+.logo-sign-up{
+    object-fit: contain;
+    width: 40%;
+}

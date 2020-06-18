@@ -1,0 +1,62 @@
+.image-background{
+    background-size: 100% 100%;
+    background-position: center;
+    object-fit: contain;
+    flex: auto;
+    display: flex;
+}
+.avatar-custom .MuiAvatar-img{
+    object-fit: contain;
+    width: 100px;
+}
+.card_custom .MuiAvatar-root{
+    width: 80px;
+    height: 80px;
+}
+.card_custom .MuiCardContent-root:last-child{
+    padding-bottom: 48px;
+}
+div.MuiCard-root{
+    overflow: unset;
+}
+.custom_textField .MuiOutlinedInput-input{
+    padding: 7px;
+}
+.custom_textField .MuiFormHelperText-root.Mui-error{
+    text-align: center;
+}
+.custom-button-login{
+    background-color: #CF3034;
+    height: 40px;
+}
+.custom_icon_book {
+    bottom: -50px;
+    left: -90px; 
+    width: 150px;
+    object-fit: contain;
+}
+.custom_icon_pen {
+    right: -90px;
+    bottom: -20px;
+    width: 60px;
+    object-fit: contain;
+}
+.label-textInput{
+    font-size: 13px;
+}
+.login_divLeft{
+    flex: 1.4;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+.login_divRight{
+    flex: 1;
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+}
+.logo_student{
+    width: 65%;
+    object-fit: contain;
+}

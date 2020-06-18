@@ -1,0 +1,40 @@
+.item-lib-exams{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    background-color: #14274E;
+    height: 200px;
+    width: 100%;
+    justify-content: center;
+}
+.circle-exam{
+    width: 150px;
+    height: 150px;
+    border-radius: 100px;
+    background-color: #2C3D60;
+    /* position: absolute; */
+    align-self: center;
+}
+.item-lib-exams-foot{
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.item-lib-exams-foot-image{
+    width: 160px;
+    object-fit: contain;
+}
+.item-lib-exams-foot-text{
+    width: 100%;
+    padding: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    display: flex;
+    flex-direction: column;
+    background-color: #033CAD;
+}

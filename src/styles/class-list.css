@@ -1,0 +1,96 @@
+.info-class{
+    text-decoration: underline;
+}
+.info-class:hover{
+    color: #296BFF;
+}
+.item-exam{
+    display: flex;
+    flex: 1;
+    margin-left: 25px;
+    background-color: white;
+    border-radius: 5px;
+    border: 1px #E5E5E5 solid;
+    flex-direction: column;
+    padding: 15px;
+    position: relative;
+}
+.item-time{
+    color: #999999;
+}
+.list-log-class{
+    height: 400px;
+    overflow-y: scroll;
+} 
+
+.triangle-left{
+    width: 0;
+    /* overflow: hidden; */
+	height: 0;
+	border-top: 5px solid transparent;
+	border-right: 10px solid #E5E5E5;
+    border-bottom: 5px solid transparent;
+    position: absolute;
+    top: 20px;
+    left: -10px;
+}
+.divider-vertical{
+        border-left: 2px solid #E5E5E5;
+        
+}
+.div-circle{
+    width: 20px;
+    height: 20px;
+    border-radius: 20px;
+    background-color: #296BFF;
+}
+.button-border-dash{
+    border-radius: 5px;
+    display: flex;
+    padding: 10px;
+    padding-left: 50px;
+    padding-right: 50px;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    border: 2px dashed #296BFF;
+}
+.image-class-detail{
+    width: 260px;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+}
+.form-class-detail{
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 4px 0.5px rgba(0, 0, 0, 0.2), 0px 5px 6px 0px rgba(0, 0, 0, 0.10), 0px 0px 0px 0px rgba(0, 0, 0, 1);
+    flex: 1;
+    display: grid;
+    flex-direction: column;
+}
+.item-dot{
+    width: 8px;
+    height: 8px;
+    border-radius: 10px;
+    margin-right: 10px;
+    background-color: #374A92;
+}
+.item-dot-white{
+    width: 8px;
+    height: 8px;
+    border-radius: 10px;
+    margin-right: 10px;
+    background-color: white;
+}
+.form-class-edit{
+    flex: 3.5;
+    display: flex;
+    flex-direction: column;
+}
+.image-class{
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
+}
