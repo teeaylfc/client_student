@@ -34,7 +34,7 @@
         "jss-extend": "6.2.0",
         "jwt-decode": "2.2.0",
         "keycode": "2.2.0",
-        "lodash": "4.17.11",
+        "lodash": "4.17.21",
         "material-ui-chip-input": "^2.0.0-beta.2",
         "material-ui-pickers": "2.2.4",
         "material-ui-popup-state": "1.2.0",
